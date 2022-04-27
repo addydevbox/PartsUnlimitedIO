@@ -12,6 +12,7 @@ namespace PartsUnlimited.Controllers
     [Authorize]
     public class ManageController : Controller
     {
+    //1234
         private SignInManager<ApplicationUser, string> SignInManager
         {
             get
