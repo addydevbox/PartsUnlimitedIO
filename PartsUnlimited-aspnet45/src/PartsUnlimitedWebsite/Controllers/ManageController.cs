@@ -14,6 +14,7 @@ namespace PartsUnlimited.Controllers
     {
         private SignInManager<ApplicationUser, string> SignInManager
         {
+        //AdeolaOmonira
             get
             {
                 return HttpContext.GetOwinContext().Get<SignInManager<ApplicationUser, string>>();
